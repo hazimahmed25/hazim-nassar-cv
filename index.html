@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f3f2ef;
         }
         .container {
             max-width: 800px;
@@ -18,12 +18,48 @@
             padding: 20px;
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 150px;
+            height: 150px;
         }
         h1, h2 {
             color: #333;
+            margin: 0;
         }
         h1 {
-            text-align: center;
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #0073b1;
+        }
+        .contact-info {
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+            border-bottom: 2px solid #0073b1;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
         }
         ul {
             list-style-type: none;
@@ -32,26 +68,25 @@
         li {
             margin-bottom: 10px;
         }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section-title {
-            font-weight: bold;
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Hazim Nassar</h1>
-    <p>Rehab City, Cairo | +201012220006 | <a href="mailto:hazimahmed25@gmail.com">hazimahmed25@gmail.com</a> | <a href="https://www.linkedin.com/in/hazimnassar">LinkedIn</a></p>
-    
+    <div class="profile-header">
+        <img src="hazim.jpg" alt="Hazim Nassar">
+        <div>
+            <h1>Hazim Nassar</h1>
+            <h2>Business Development Specialist | Software Engineering Graduate</h2>
+            <div class="contact-info">
+                Rehab City, Cairo | <a href="mailto:hazimahmed25@gmail.com">hazimahmed25@gmail.com</a> | <a href="https://www.linkedin.com/in/hazimnassar">LinkedIn</a> 
+            </div>
+        </div>
+    </div>
+
     <div class="section">
-        <div class="section-title">Profile</div>
-        <p>Innovative and motivated professional with a strong foundation in software engineering and proven success in business development, real estate, and event management. With a Bachelor's degree in Software Engineering from Cairo University and diverse experiences across various industries, I bring a unique blend of technical expertise, project management skills, and client-focused solutions. Proficient in multitasking, problem-solving, and delivering high-quality outcomes for client satisfaction.</p>
+        <div class="section-title">About</div>
+        <p>I am an innovative and results-oriented professional with a background in software engineering and expertise in business development, real estate, and event management. I excel at collaborating with stakeholders to deliver customized solutions and lead successful projects. I am passionate about driving growth and optimizing processes for client satisfaction.</p>
     </div>
 
     <div class="section">
@@ -59,27 +94,23 @@
         <ul>
             <li><strong>Business Developer</strong> - Dynamic Business Solutions, Cairo (Apr 2024 - Present)
                 <ul>
-                    <li>Conduct in-depth discussions with clients to understand their software needs and pain points.</li>
-                    <li>Develop customized software solutions to meet specific client requirements.</li>
-                    <li>Lead negotiations and contract discussions to secure new business deals.</li>
+                    <li>Engaged with clients to understand software needs and pain points.</li>
+                    <li>Developed customized software solutions and led contract negotiations.</li>
                 </ul>
             </li>
             <li><strong>Property Consultant</strong> - The Address Investments, Cairo (Apr 2023 - Mar 2024)
                 <ul>
-                    <li>Provided tailored property recommendations based on client needs.</li>
-                    <li>Conducted site visits and facilitated successful property deals, ensuring client satisfaction.</li>
+                    <li>Provided tailored property solutions and facilitated property deals.</li>
                 </ul>
             </li>
             <li><strong>Organizing Head</strong> - EMOR, Cairo (Jul 2017 - Aug 2020)
                 <ul>
-                    <li>Led planning and execution of various events, including logistics and vendor coordination.</li>
-                    <li>Created detailed event proposals and managed budgets and timelines.</li>
+                    <li>Led the planning and execution of events, managing logistics and budgets.</li>
                 </ul>
             </li>
-            <li><strong>Freelancer</strong> - Self Employed (Jan 2014 - Present)
+            <li><strong>Freelancer</strong> - Digital Marketing & WordPress Development (Jan 2014 - Present)
                 <ul>
-                    <li>Digital Marketing: Developed targeted strategies that generated leads and enhanced brand visibility.</li>
-                    <li>WordPress Development: Customized themes and plugins to optimize website functionality and user experience.</li>
+                    <li>Developed marketing campaigns and WordPress websites, increasing client visibility and engagement.</li>
                 </ul>
             </li>
         </ul>
@@ -89,15 +120,15 @@
         <div class="section-title">Education</div>
         <ul>
             <li><strong>Bachelor’s Degree in Software Engineering</strong> - Cairo University (Sep 2019 - Jun 2023)</li>
-            <li><strong>American Diploma</strong> - Janadan International School, Cairo (Jun 2009 - Jun 2019)</li>
+            <li><strong>American Diploma</strong> - Janadan International School (Jun 2009 - Jun 2019)</li>
         </ul>
     </div>
 
     <div class="section">
         <div class="section-title">Skills</div>
         <ul>
-            <li><strong>Expert in:</strong> Problem Solving, Requirements Analysis, Business Analysis, Digital Marketing, Business Development, Market Analysis, Client Engagement, Technical Support, Negotiation, Leadership, Communication</li>
-            <li><strong>Intermediate in:</strong> Software Development, Project Management</li>
+            <li><strong>Expert in:</strong> Problem Solving, Requirements Analysis, Business Development, Client Engagement, Negotiation</li>
+            <li><strong>Intermediate in:</strong> Project Management, Software Development</li>
         </ul>
     </div>
 
@@ -108,10 +139,7 @@
             <li><strong>Foundations of Project Management</strong> - Google (2024)</li>
             <li><strong>SAP Technology Consultant</strong> - SAP (2024)</li>
             <li><strong>Certified Tester Foundation Level</strong> - ISTQB (2024)</li>
-            <li><strong>Innovation and Entrepreneurship</strong> - InnovEgypt (2023)</li>
             <li><strong>Containers & Kubernetes</strong> - Redhat (2023)</li>
-            <li><strong>Red Hat Application Development I</strong> - Redhat (2022)</li>
-            <li><strong>Red Hat System Administration I</strong> - Redhat (2021)</li>
         </ul>
     </div>
 </div>
